@@ -119,7 +119,7 @@ if __name__ == "__main__":
 
                 await message.channel.send(error_message)
 
-        client.run('MTAzODE1MTI5NTk1MDkzMDA0MA.G0RwK_.tlUMYanyuXFWDEWQB-xYcI4kqNbT_3gsQL8uY8')
+        client.run('discord_token_here')
         
     except Exception as e:
         print(e)
