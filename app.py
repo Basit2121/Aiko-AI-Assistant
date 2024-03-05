@@ -37,7 +37,7 @@ if __name__ == "__main__":
 
     try:
 
-        genai.configure(api_key='AIzaSyBVSWintcm7wSmjYygpvKU37NXo2LhWx98')
+        genai.configure(api_key='api_key_here')
         model = genai.GenerativeModel('models/gemini-pro')
         chat = model.start_chat()
         
